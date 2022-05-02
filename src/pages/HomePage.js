@@ -7,24 +7,7 @@ import HobbiesPage from "./HobbiesPage";
 import { useEffect } from "react";
 
 export default function HomePage() {
-  useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--clr-neon",
-      "hsl(317 100% 54%)"
-    );
-    document.documentElement.style.setProperty("--clr-bg", "hsl(323 21% 16%)");
-  }, []);
 
-  function setColor() {
-    document.documentElement.style.setProperty(
-      "--clr-bg",
-      "rgb(206, 228, 237)"
-    );
-    document.documentElement.style.setProperty(
-      "--clr-neon",
-      "black"
-    );
-  }
   return (
     <div>
       <div className="grid-item">
